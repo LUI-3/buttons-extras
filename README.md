@@ -3,8 +3,8 @@
 This repository contains `LUI-3_buttons-extras` component, which extends `LUI-3_buttons` with additional functionalities
 
 
-[![GitHub license](http://content.github.lui-3.cz/repo-design/button_docs.jpg)](//lui-3.cz/docs/component/buttons/)
-[![GitHub license](http://content.github.lui-3.cz/repo-design/button_releases.jpg)](//github.com/LUI-3/buttons/releases/latest)
+[![GitHub license](http://content.github.lui-3.cz/repo-design/button_docs.jpg)](//lui-3.cz/docs/component/buttons-extras/)
+[![GitHub license](http://content.github.lui-3.cz/repo-design/button_releases.jpg)](//github.com/LUI-3/buttons-extras/releases/latest)
 
 ## Install via bower
 ```bower
