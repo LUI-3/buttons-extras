@@ -1,0 +1,28 @@
+{
+  "name": "LUI-3_buttons-extras",
+  "homepage": "https://github.com/LUI-3/buttons-extras",
+  "authors": [
+    "wufiii@gmail.com"
+  ],
+  "description": "Responsive front-end website framework - Buttons - extras",
+  "main": "less/buttons-extras.router.less",
+  "keywords": [
+    "responsive",
+    "front-end",
+    "framework",
+    "website",
+    "web"
+  ],
+  "dependencies": {
+    "LUI-3_base": "~3.1.0",
+    "LUI-3_buttons": "~3.1.0"
+  },
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

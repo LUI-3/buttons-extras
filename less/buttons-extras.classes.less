@@ -1,0 +1,92 @@
+// LUI-3 FRAMEWORK
+// github.com/LUI-3
+// originally created by Jiří Bělský (github.com/wUFr)
+// ----
+// BUTTON - EXTRAS - CLASSNAMES
+
+
+
+.@{lui_class_prefix}_buttons_group when (@lui_buttons_group_class_enabled = true){
+
+	&.inline,
+	&.xs-inline {
+		.lui.buttons.group.inline();
+	}
+
+	&.block,
+	&.xs-block {
+		.lui.buttons.group.block();
+	}
+
+	& when (@grid_sm_enable = true){
+		@media (min-width:@grid_sm_start){
+			&.sm-inline {
+				.lui.buttons.group.inline();
+			}
+
+			&.sm-block {
+				.lui.buttons.group.block();
+			}
+		}
+	}
+
+	& when (@grid_md_enable = true){
+		@media (min-width:@grid_md_start){
+			&.md-inline {
+				.lui.buttons.group.inline();
+			}
+
+			&.md-block {
+				.lui.buttons.group.block();
+			}
+		}
+	}
+
+	& when (@grid_lg_enable = true){
+		@media (min-width:@grid_lg_start){
+			&.lg-inline {
+				.lui.buttons.group.inline();
+			}
+
+			&.lg-block {
+				.lui.buttons.group.block();
+			}
+		}
+	}
+
+	& when (@grid_xl_enable = true){
+		@media (min-width:@grid_xl_start){
+			&.xl-inline {
+				.lui.buttons.group.inline();
+			}
+
+			&.xl-block {
+				.lui.buttons.group.block();
+			}
+		}
+	}
+
+	& when (@grid_xxl_enable = true){
+		@media (min-width:@grid_xxl_start){
+			&.xxl-inline {
+				.lui.buttons.group.inline();
+			}
+
+			&.xxl-block {
+				.lui.buttons.group.block();
+			}
+		}
+	}
+
+	& when (@grid_xxxl_enable = true){
+		@media (min-width:@grid_xxxl_start){
+			&.xxxl-inline {
+				.lui.buttons.group.inline();
+			}
+
+			&.xxxl-block {
+				.lui.buttons.group.block();
+			}
+		}
+	}
+}
