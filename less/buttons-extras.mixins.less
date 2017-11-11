@@ -6,7 +6,7 @@
 
 
 .lui.buttons.group when (@lui_buttons_group_mixin_enabled = true){
-	.inline(){
+	.inline() when (@lui_buttons_group_mixin_inline_enabled = true){
 		.lui.flexbox.inline();
 		.lui.flexbox.flex-wrap(wrap);
 
@@ -27,7 +27,7 @@
 		}
 	}
 
-	.block(){
+	.block() when (@lui_buttons_group_mixin_block_enabled = true){
 		.lui.flexbox.block();
 		.lui.flexbox.flex-direction(column);
 

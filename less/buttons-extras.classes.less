@@ -10,21 +10,25 @@
 
 	&.inline,
 	&.xs-inline {
-		.lui.buttons.group.inline();
+		& when (@lui_buttons_group_class_inline_enabled = true){
+			.lui.buttons.group.inline();
+		}
 	}
 
 	&.block,
 	&.xs-block {
-		.lui.buttons.group.block();
+		& when (@lui_buttons_group_class_block_enabled = true){
+			.lui.buttons.group.block();
+		}
 	}
 
 	& when (@grid_sm_enable = true){
 		@media (min-width:@grid_sm_start){
-			&.sm-inline {
+			&.sm-inline when (@lui_buttons_group_class_inline_enabled = true){
 				.lui.buttons.group.inline();
 			}
 
-			&.sm-block {
+			&.sm-block when (@lui_buttons_group_class_block_enabled = true){
 				.lui.buttons.group.block();
 			}
 		}
@@ -32,11 +36,11 @@
 
 	& when (@grid_md_enable = true){
 		@media (min-width:@grid_md_start){
-			&.md-inline {
+			&.md-inline when (@lui_buttons_group_class_inline_enabled = true){
 				.lui.buttons.group.inline();
 			}
 
-			&.md-block {
+			&.md-block when (@lui_buttons_group_class_block_enabled = true){
 				.lui.buttons.group.block();
 			}
 		}
@@ -44,11 +48,11 @@
 
 	& when (@grid_lg_enable = true){
 		@media (min-width:@grid_lg_start){
-			&.lg-inline {
+			&.lg-inline when (@lui_buttons_group_class_inline_enabled = true){
 				.lui.buttons.group.inline();
 			}
 
-			&.lg-block {
+			&.lg-block when (@lui_buttons_group_class_block_enabled = true){
 				.lui.buttons.group.block();
 			}
 		}
@@ -56,11 +60,11 @@
 
 	& when (@grid_xl_enable = true){
 		@media (min-width:@grid_xl_start){
-			&.xl-inline {
+			&.xl-inline when (@lui_buttons_group_class_inline_enabled = true){
 				.lui.buttons.group.inline();
 			}
 
-			&.xl-block {
+			&.xl-block when (@lui_buttons_group_class_block_enabled = true){
 				.lui.buttons.group.block();
 			}
 		}
@@ -68,11 +72,11 @@
 
 	& when (@grid_xxl_enable = true){
 		@media (min-width:@grid_xxl_start){
-			&.xxl-inline {
+			&.xxl-inline when (@lui_buttons_group_class_inline_enabled = true){
 				.lui.buttons.group.inline();
 			}
 
-			&.xxl-block {
+			&.xxl-block when (@lui_buttons_group_class_block_enabled = true){
 				.lui.buttons.group.block();
 			}
 		}
@@ -80,11 +84,11 @@
 
 	& when (@grid_xxxl_enable = true){
 		@media (min-width:@grid_xxxl_start){
-			&.xxxl-inline {
+			&.xxxl-inline when (@lui_buttons_group_class_inline_enabled = true){
 				.lui.buttons.group.inline();
 			}
 
-			&.xxxl-block {
+			&.xxxl-block when (@lui_buttons_group_class_block_enabled = true){
 				.lui.buttons.group.block();
 			}
 		}
