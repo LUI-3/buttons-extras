@@ -8,11 +8,14 @@ This repository contains `LUI-3_buttons-extras` component, which extends `LUI-3_
 
 ## Install via bower
 ```bower
-bower install LUI-3_buttons
+bower install LUI-3_buttons-extras
 ```
 **Bower dependencies:**
 
 ```
 LUI-3_base
+LUI-3_buttons
 ```
-Repository: https://github.com/LUI-3/base
+Repositories:  
+https://github.com/LUI-3/base  
+https://github.com/LUI-3/buttons
